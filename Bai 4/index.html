@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="col-4">
+            <form>
+              <label for="exampleFormControlSelect1">Chọn loại khách hàng</label>
+              <select class="form-control" id="inputLoaiKH">
+                <option value="">Chọn loại khách hàng</option>
+                <option value="doanhNghiep">Doanh Nghiệp</option>
+                <option value="nhaDan">Nhà Dân</option>
+                
+        
+              </select>
+                <div class="form-group">
+                  <label for="">Nhập Mã Khách Hàng</label>
+                  <input type="text" class="form-control" id="inputName" >
+                  
+                </div>
+                <div class="form-group">
+                  <label for="">Nhập Số kênh cao cấp</label>
+                  <input type="number" class="form-control" id="inputSoKenh">
+                </div>
+                <div class="form-group">
+                  <label for="" id="nhapsoketnoi">Nhập số kết nối</label>
+                  <input type="number" class="form-control" id="inputSoKetNoi">
+                </div>
+                
+            <button type="button" class="btn btn-primary my-3" id="btnTinhTien">Tính tiền cap</button>
+              </form>
+              <p id="txtTinhTien" class="alert alert-danger" ></p>
+        </div>
+        
+
+
+    </div>
+    
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <!-- BS4  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
